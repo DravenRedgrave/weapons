@@ -140,7 +140,8 @@ nav ul li i{
 
 
 .slider-min.slick-slider{
-  position: fixed;
+  overflow-x: hidden;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -244,6 +245,524 @@ nav ul li {
   .more a{
     padding: 5px 15px;
   }
+}
+
+.about{
+  width: 100%;
+  position: relative;
+  height: 60vh;
+  padding-top: 5%;
+  background-image: url("../img/Image BG.png");
+}
+
+.about-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-flex{
+  display: flex;
+}
+
+.about-item{
+  max-width: 700px;
+}
+
+.title{
+  display: flex;
+}
+
+
+.cub{
+  margin-top: 1%;
+  width: 50px;
+  height: 30px;
+  background-color: #878144;
+}
+
+.title h2{
+  font-size: 36px;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Audiowide";
+  margin: 0px;
+  padding-left: 40px;
+}
+
+.about-item p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #878787;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.about-item span{
+  font-size: 16px;
+  line-height: 28px;
+  color: #878244;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.about-btn{
+  display: flex;
+  padding-top: 50px;
+}
+
+.read a{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+  background-color: #878144;
+  padding: 15px 40px;
+}
+
+.read a:hover{
+  background-color: #000;
+}
+
+
+.shop a{
+  font-size: 16px;
+  color: #111111;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+  background-color: rgba(60,182,63,0);
+  border: 2px solid #878244;
+  padding: 13px 40px;
+}
+
+.shop a:hover{
+  border: 2px solid 878244;
+  background-color: #878144;
+  color: #fff;
+}
+
+.service{
+  margin-left: 50px;
+}
+
+.hunt{
+  padding: 20px 45px;
+  background: #fff;
+  margin-top: -2px;
+  display: block;
+  position: relative;
+  width: 100%;
+  transition: all 0.3s;
+  -webkit-clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
+  clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
+  border: 2px solid #eeeeee;
+}
+
+.hunt::before{
+  content: '';
+  position: absolute;
+  right: 24px;
+  top: -8px;
+  bottom: -8px;
+  width: 2px;
+  background: #eeeeee;
+  transform: rotate(-17deg);
+}
+
+.hunt::after{
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: -8px;
+  bottom: -8px;
+  width: 2px;
+  background: #eeeeee;
+  transform: rotate(-17deg);
+}
+
+.box-hunt{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-text h2{
+  font-size: 24px;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Audiowide";
+}
+
+.box-text a{
+  font-size: 16px;
+  line-height: 28px;
+  color: #878244;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+.box-img-about{
+  padding-top: 6%;
+}
+
+.trainning{
+  -webkit-clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
+  clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
+  border: 2px solid #eeeeee;
+  padding: 20px 45px;
+  background: #fff;
+  margin-top: -2px;
+  display: block;
+  position: relative;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.trainning::before{
+  content: '';
+  position: absolute;
+  right: 24px;
+  top: -8px;
+  bottom: -8px;
+  width: 2px;
+  background: #eeeeee;
+  transform: rotate(17deg);
+}
+
+.trainning::after{
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: -8px;
+  bottom: -8px;
+  width: 2px;
+  background: #eeeeee;
+  transform: rotate(17deg);
+}
+
+.box-trainning{
+  display: flex;
+  justify-content: space-around;
+}
+
+.shot{
+  padding: 20px 45px;
+  background: #fff;
+  margin-top: -2px;
+  display: block;
+  position: relative;
+  width: 100%;
+  transition: all 0.3s;
+  -webkit-clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
+  clip-path: polygon(0 0, 88% 0, 100% 100%, 12% 100%);
+  border: 2px solid #eeeeee;
+}
+
+.shot::before{
+  content: '';
+  position: absolute;
+  right: 24px;
+  top: -8px;
+  bottom: -8px;
+  width: 2px;
+  background: #eeeeee;
+  transform: rotate(-17deg);
+}
+
+.shot::after{
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: -8px;
+  bottom: -8px;
+  width: 2px;
+  background: #eeeeee;
+  transform: rotate(-17deg);
+}
+
+.box-shot{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media (max-width:1200px) {
+  .about{
+    height: auto;
+  }
+  .about-flex{
+    flex-direction:column;
+  }
+  .about-item{
+    margin: 0 auto;
+  }
+  .service{
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .hunt{
+    border: none;
+    padding: 0px;
+  }
+  .hunt::before,
+  .hunt::after{
+    display: none;
+  }
+  .trainning{
+    border: none;
+    padding: 0px;
+  }
+  .trainning::before,
+  .trainning::after{
+    display: none;
+  }
+  .shot{
+    border: none;
+    padding: 0px;
+  }
+  .shot::before,
+  .shot::after{
+    display: none;
+  }
+}
+
+.gun{
+  max-width: 100%;
+  height: 37vh;
+  background-color: #272727;
+}
+
+.gun-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
+.gun-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.gun-item h2{
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Audiowide";
+}
+
+.gun-box{
+  display: flex;
+  margin: 40px 0px;
+}
+
+.gun-box span{
+  font-size: 30px;
+  text-decoration: line-through;
+  color: #525252;
+  font-weight: 400;
+  font-family: "Audiowide";
+}
+
+.gun-box p{
+  font-size: 30px;
+  color: #878244;
+  font-weight: 400;
+  font-family: "Audiowide";
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.gun-item a{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+  background-color: #878144;
+  padding: 15px 40px;
+}
+
+@media (max-width:1200px) {
+  .gun{
+    height: auto;
+  }
+  .gun-flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+  }
+  .gun-item a{
+
+  }
+}
+
+@media (max-width:768px){
+  .gun-item img{
+    max-width: 100%;
+  }
+}
+
+.events{
+  width: 100%;
+  height: 100vh;
+}
+
+.events-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+.events-container h2{
+  font-size: 36px;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Audiowide";
+  text-align: center;
+}
+
+.events-container p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #878787;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.events-spoiler{
+  padding-top: 20px;
+}
+
+.spoiler-item{
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 10px 30px;
+}
+
+.spoler-title{
+  cursor: pointer;
+}
+
+.spoler-title h2{
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #878244;
+  font-weight: 400;
+  font-family: "Audiowide";
+  text-align: left;
+  cursor: pointer;
+}
+
+.data-spoler{
+  cursor: pointer;
+  max-width: 830px;
+  display: flex;
+}
+
+.data{
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.data i{
+  font-size: 18px;
+  color: #878244;
+}
+
+.data p{
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin: 0px;
+}
+
+.spoiler-box{
+  display: none;
+}
+
+.spoiler-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #878787;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Poppins";
+  max-width: 830px;
+}
+
+
+.slider-content{
+  max-width: 830px;
+  margin: 30px 0px;
+}
+
+.video{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/2.png");
+  background-attachment: scroll;
+  position: relative;
+}
+
+
+.video-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.play-box{
+  display: flex;
+  justify-content: center;
+}
+
+
+.video-container h2{
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Audiowide";
+  text-align: center;
+  margin: 0px;
+}
+
+
+.play{
+  width: 137px;
+  height: 115px;
+  background-color: rgba(128,128,128,0);
+  border: 2px solid #878244;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+
+.play i{
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.video-container p{
+  opacity: 0.5;
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Audiowide";
+  text-align: center;
+  margin: 0px;
 }
 
 @font-face {
